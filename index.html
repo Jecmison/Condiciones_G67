@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./aseets/css/style.css">
+    <title>Desafio Condicion G67</title>
+
+</head>
+<body>
+
+    <section class=" ejercicio1">
+        <div class="imagenj1">
+            <h1>Ejercicio 1</h1>
+            <p>Dale un Click a Asta</p>
+            <img id="asta" src="./aseets/img/asta.png" alt="Personaje con grimorio de 5 hojas">
+        </div>
+    </section>
+    
+    <section class="ejercicio2">
+            <h1>Ejercicio 2</h1>
+
+            <div class="container">
+
+                <div class="sticker">
+                    <figure>
+                        <img src="./aseets/img/noelle.jpg" alt="Noelle Black Clover">
+                    </figure>
+                    <input class="input" type="number" min="0" max="10" value="0" id="noelle">  
+                </div>
+
+                <div class="sticker">
+                    <figure>
+                        <img src="./aseets/img/yuno.jpeg" alt="Yuno Black Clover">
+                    </figure>
+                    <input class="input" type="number" min="0" max="10" value="0" id="yuno">  
+                </div>
+
+                <div class="sticker">
+                    <figure>
+                        <img src="./aseets/img/vanessa.jfif" alt="Vanessa Black Clover">
+                    </figure>
+                    <input class="input" type="number" min="0" max="10" value="0" id="vanessa">  
+                </div>
+         </div>
+
+            <div class="pinchar">
+                <button class="button" id="btn" onclick="SumadorSticker()">Verificar</button>
+                <p id="pinchar"></p>
+            </div>
+        </section>
+
+        <section class="ejercicio3">
+            <h2>Ejercicio 3</h2>
+
+            <div class="password">
+                <h1>Ingresa el password:</h1>
+    
+                <select name="numero" id="caja1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+    
+                <select name="numero" id="caja2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+    
+                <select name="numero" id="caja3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+    
+                <div class="verif">
+                    <button class="button is-primary output" id="pass-btn" onclick="tuContraseña()">Ingresar</button>
+                    <p id="verif-passw"></p>
+                </div>
+
+            </div>
+        </section>
+       
+    <script src="./aseets/js/script.js"></script>
+</body>
+</html>

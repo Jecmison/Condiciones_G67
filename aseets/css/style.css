@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(145, 145, 139);
+}
+
+
+/*CSS para Ejercicio 1*/
+
+
+.imagenj1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    gap: 4px;
+    border-radius: 50px;
+}
+
+.imagenj1 p {
+    padding: 1%;
+}
+
+.imagenj1 img {
+    width: 13%;
+}    
+
+.border {
+    border: 2px red solid;
+}
+
+/*CSS para Ejercicio 2*/
+
+.ejercicio2 h1 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sticker figure img {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: contain;
+    margin: 10px;
+}
+
+.container input {
+    width: 220px;
+    text-align: center;
+    margin: 10px;
+}
+
+.pinchar {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.pinchar button {
+    width: 10%;  
+}
+
+.pinchar p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    width: 15%;
+}
+
+/*CSS para Ejercicio 3*/
+
+.ejercicio3 h2 {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.password {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.password select {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 9px;
+    border: 1px solid #140101;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
